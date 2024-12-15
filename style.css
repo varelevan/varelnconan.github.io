@@ -1,0 +1,209 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #f9f4e7;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+    color: #d4af37;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #d4af37;
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #f9f4e7;
+    color: #333;
+    padding: 10px;
+    border-top: 2px solid #d4af37;
+}
+
+/* Home Page Styles */
+.home {
+    text-align: center;
+    padding: 50px;
+}
+
+.home h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.home p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.home img {
+    width: 100%; /* Mengubah gambar agar mengisi lebar kontainer */
+    max-width: 800px; /* Membatasi gambar agar tidak terlalu besar */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin: 20px 0;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+}
+
+/* About Us Page Styles */
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h2 {
+    color: #d4af37;
+}
+
+.about p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.about img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin: 10px;
+    border: 2px solid #d4af37;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+/* Gallery Page Styles */
+.gallery {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+}
+
+/* Contact Page Styles */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f9f4e7;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #d4af37;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #b8972e;
+}
+
+/* Services Section */
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.service {
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.service i {
+    font-size: 50px;
+    color: #d4af37;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect untuk ikon */
+.service i:hover {
+    color: #644d00; 
+    transform: scale(1.2);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+}
